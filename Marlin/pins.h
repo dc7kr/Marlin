@@ -71,6 +71,9 @@
 #elif MB(RAMPS_14_SF)
   #define IS_RAMPS_SF
   #include "pins_RAMPS.h"
+#elif MB(RAMPS_13_MADUIXA) 
+  #define IS_RAMPS_EFB
+  #include "pins_RAMPS_maduixa.h"
 
 //
 // RAMPS Derivatives - ATmega1280, ATmega2560
