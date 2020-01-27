@@ -1133,7 +1133,7 @@ static_assert(X_MAX_LENGTH >= X_BED_SIZE && Y_MAX_LENGTH >= Y_BED_SIZE,
   #error "E0_STEP_PIN, E0_DIR_PIN, or E0_ENABLE_PIN not defined for this board."
 //#elif TEMP_SENSOR_0 == 0
 //  #error "TEMP_SENSOR_0 is required."
-//#endif
+#endif
 
 // Pins are required for heaters
 #if ENABLED(HEATER_0_USES_MAX6675) && !(defined(MAX6675_SS) && MAX6675_SS >= 0)
